@@ -1,6 +1,19 @@
+*{
+  margin: 5;
+  padding: 0;
+  box-sizing: border-box;
+}
 header{
-
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background-color:(13, 50, 77);
+  
 }
 header h1{
-  color: rgb(45, 130, 183)
+  color: rgb(7, 0, 77)
+  
+}
+.hero {
+
 }
