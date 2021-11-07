@@ -1,19 +1,46 @@
-*{
-  margin: 5;
-  padding: 0;
-  box-sizing: border-box;
-}
+ /*{
+  background-color: rgb(107, 39, 55);
+  max-width: 100%;
+  max-height: auto;
+  z-index: 1;
+}*/
 header{
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  background-color:(13, 50, 77);
-  
-}
-header h1{
-  color: rgb(7, 0, 77)
-  
-}
-.hero {
+  background-color: rgb(13, 50, 77);
 
 }
+header nav ul li{
+  padding-top: 15px;
+  margin-right: 20px;
+  float: right;
+  font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+  font-size: 20px;
+  background-color: rgb(13, 50, 77);
+  
+}
+a {
+  color: rgb(202, 210, 197)
+}
+header h1{
+  color: rgb(202, 210, 197)
+}
+.Biography div{
+  width: 55%;
+}
+.bio img{
+  height: 400px;
+  position: relative;
+  display: flex;
+  top: -52px;
+  right: 5px;
+  bottom: 0px;
+  left: 500px;
+}
+.Biography div{
+  background-color: rgb(202, 210, 197) ;
+}
+/*Projects start*/
+
+/*Projects end*/
