@@ -9,7 +9,6 @@ header{
   justify-content: space-between;
   flex-wrap: wrap;
   background-color: rgb(13, 50, 77);
-
 }
 header nav ul li{
   padding-top: 15px;
@@ -26,10 +25,13 @@ a {
 header h1{
   color: rgb(202, 210, 197)
 }
-.Biography div{
-  width: 55%;
+/*Biography start */
+.Biography{
+  float: left;
+  width: 60%;
 }
-.bio img{
+
+.Biography img{
   height: 400px;
   position: relative;
   display: flex;
@@ -41,6 +43,71 @@ header h1{
 .Biography div{
   background-color: rgb(202, 210, 197) ;
 }
-/*Projects start*/
+.bio{
+}
+.bio h2 {
+  text-align: center;
+}
+.bio p {
+  left: 5px;
+}
+/*Biography end*/
 
+/*Contact start*/
+.Connect{
+    margin-right: 20px;
+    padding: 20px;
+    float: right;
+    width: 30%;
+    height: 100%;
+}
+.Connect-form{
+  border: 1px solid #024e76;
+  display: block;
+  padding: 7px 15px;
+  font-size: 16px;
+  color: rgb(202, 210, 197);
+  width: 100%;
+  margin-bottom: 15px;
+  margin-top: 5px;
+  border-radius: 10px;
+  background-color: rgba(150, 26, 73);
+}
+/*Contact end*/
+
+/*Projects start*/
+.Projects{
+  clear: both;
+}
+.Projects h2{
+  text-align: center;
+}
+.RunBuddy{
+  margin-bottom: 20px;
+  padding: 50px;
+  height: 100px;
+  background-color: rgb(62, 150, 130);
+}
+.RunBuddy div{
+  flex-wrap: wrap;
+}
+.RunBuddy h3 img {
+  height: 150px;
+  width:auto;
+  float: left;
+}
+
+.JavaScript {
+  margin-bottom: 20px;
+  padding: 50px;
+  height: 100px;
+  background-color: rgb(62, 150, 130);
+}
+
+.HoriSEOn {
+  margin-bottom: 20px;
+  padding: 50px;
+  height: 100px;
+  background-color: rgb(62, 150, 130);
+}
 /*Projects end*/
