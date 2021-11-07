@@ -4,11 +4,13 @@
   max-height: auto;
   z-index: 1;
 }*/
+
+
 header{
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  background-color: rgb(13, 50, 77);
+  background-color: rgb(80, 113, 138);
 }
 header nav ul li{
   padding-top: 15px;
@@ -16,14 +18,14 @@ header nav ul li{
   float: right;
   font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
   font-size: 20px;
-  background-color: rgb(13, 50, 77);
+  background-color: rgb(80, 113, 138);
   
 }
 a {
-  color: rgb(202, 210, 197)
+  color: rgb(120, 178, 222)
 }
 header h1{
-  color: rgb(202, 210, 197)
+  color: rgb(120, 178, 222)
 }
 /*Biography start */
 .Biography{
@@ -41,10 +43,9 @@ header h1{
   left: 500px;
 }
 .Biography div{
-  background-color: rgb(202, 210, 197) ;
+  background-color: rgb(120, 178, 222) ;
 }
-.bio{
-}
+
 .bio h2 {
   text-align: center;
 }
@@ -82,32 +83,28 @@ header h1{
 .Projects h2{
   text-align: center;
 }
+
 .RunBuddy{
   margin-bottom: 20px;
   padding: 50px;
   height: 100px;
-  background-color: rgb(62, 150, 130);
+  background-color: rgb(247, 170, 111);
 }
-.RunBuddy div{
-  flex-wrap: wrap;
-}
-.RunBuddy h3 img {
-  height: 150px;
-  width:auto;
-  float: left;
+.RunBuddy h3 {
+  color: rgb(35, 22, 81);
 }
 
 .JavaScript {
   margin-bottom: 20px;
   padding: 50px;
   height: 100px;
-  background-color: rgb(62, 150, 130);
+  background-color: rgb(247, 170, 111);
 }
 
 .HoriSEOn {
   margin-bottom: 20px;
   padding: 50px;
   height: 100px;
-  background-color: rgb(62, 150, 130);
+  background-color: rgb(247, 170, 111);
 }
 /*Projects end*/
