@@ -11,6 +11,11 @@ header{
   justify-content: space-between;
   flex-wrap: wrap;
   background-color: rgb(80, 113, 138);
+  background-position: center;
+  top: 0;
+  background-attachment: fixed;
+  position: -webkit-sticky;
+  position: sticky;
 }
 header nav ul li{
   padding-top: 15px;
