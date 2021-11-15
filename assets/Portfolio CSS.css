@@ -1,33 +1,34 @@
- /*{
-  background-color: rgb(107, 39, 55);
-  max-width: 100%;
-  max-height: auto;
-  z-index: 1;
-}*/
+ *{
 
+}
+
+/* How to apply a background color to the entire page, behind everythign else (replaces white space)
+making sure diplay pic shows up on the deployed app, but move in response to a changing screen size (flex)
+
+*/
 
 header{
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  background-color: rgb(80, 113, 138);
+  background-color: rgb(2, 62, 138);
   background-position: center;
   top: 0;
+  z-index: 99;
   background-attachment: fixed;
   position: -webkit-sticky;
   position: sticky;
+  font-family: fantasy;
 }
 header nav ul li{
   padding-top: 15px;
   margin-right: 20px;
   float: right;
-  font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
   font-size: 20px;
-  background-color: rgb(80, 113, 138);
   
 }
 a {
-  color: rgb(120, 178, 222)
+
 }
 header h1{
   color: rgb(120, 178, 222)
@@ -36,10 +37,12 @@ header h1{
 .Biography{
   float: left;
   width: 60%;
+  font-family: sans-serif;
 }
 
-.Biography img{
-  height: 400px;
+.display-pic{
+  max-width: 40%;
+  height: auto;
   position: relative;
   display: flex;
   top: -52px;
@@ -66,6 +69,7 @@ header h1{
     float: right;
     width: 30%;
     height: 100%;
+    font-family: cursive;
 }
 .Connect-form{
   border: 1px solid #024e76;
@@ -84,9 +88,11 @@ header h1{
 /*Projects start*/
 .Projects{
   clear: both;
+  font-family: cursive;
 }
 .Projects h2{
   text-align: center;
+  color: rgb(0, 119, 182);
 }
 
 .RunBuddy{
